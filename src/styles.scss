@@ -5,3 +5,12 @@
     margin: 0;
     border: 0;
 }
+
+a {
+    color: blue;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: black;
+}

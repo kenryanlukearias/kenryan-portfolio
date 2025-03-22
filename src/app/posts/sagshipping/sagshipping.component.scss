@@ -6,9 +6,28 @@ body {
 
 .parent {
     display: flex;
-    width: 50%;
+    flex-direction: column;
+    width: 36%;
     height: 100%;
-    background-color: blue;
+    padding-top: 10rem;
+    // background-color: blue;
     justify-self: center;
 
+}
+
+div {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+h1 {
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 5px;
 }
