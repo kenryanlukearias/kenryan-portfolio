@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { FrontPageComponent } from './front-page/front-page/front-page.component';
+import { FrontPageModule } from './front-page/front-page.module';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, FrontPageComponent],
+  imports: [RouterOutlet, FrontPageModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
